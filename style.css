@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #5f9341;
+  margin-bottom: 4px;
+}
+
+button {
+  background: #5f9341;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #5f9341;
+  font-weight: bold;
+}
+
+#delete-btn {
+  background: white;
+  color: #5f9341;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+a {
+  color: #5f9341;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 50%;
+  top: 50%;
+  width: 20rem; /* Full width */
+  height: 40rem; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  /* background-color: rgb(0, 0, 0); Fallback color */
+  /* background-color: rgba(0, 0, 0, 0.4); Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #b42e2e;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 18rem; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

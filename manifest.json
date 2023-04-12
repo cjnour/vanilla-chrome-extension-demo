@@ -5,15 +5,15 @@
   "permissions": ["tabs", "contextMenus", "activeTab", "scripting"],
   "action": {
     "default_title": "Mrs. GPT",
-    "default_popup": "index.html"
+    "default_popup": "defaultPopup.html"
   },
   "background": {
     "service_worker": "background.js"
   },
   "icons": {
-    "16": "icon-bitty.png",
-    "48": "icon-small.png",
-    "128": "icon-large.png"
+    "16": "/assets/icon-bitty.png",
+    "48": "/assets/icon-small.png",
+    "128": "/assets/icon-large.png"
   },
   "host_permissions": ["<all_urls>"],
   "content_security_policy": {
@@ -22,13 +22,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": [
-        "modal.html",
-        "clientIndex.html",
-        "bot.svg",
-        "send.svg",
-        "user.svg"
-      ],
+      "resources": ["modal.html"],
       "matches": ["<all_urls>"]
     }
   ]

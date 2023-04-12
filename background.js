@@ -1,6 +1,6 @@
 var menuItem = {
-  id: "rateMenu",
-  title: "Rate Item",
+  id: "askMrsGpt",
+  title: "Ask Mrs. GPT",
   contexts: ["all"],
 };
 

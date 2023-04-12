@@ -25,5 +25,11 @@
       "resources": ["modal.html"],
       "matches": ["<all_urls>"]
     }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["mouseListener.js"]
+    }
   ]
 }

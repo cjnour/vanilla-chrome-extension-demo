@@ -1,24 +1,21 @@
 /* The Modal (background) */
 .modal {
-  display: block; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: block;
+  position: fixed;
+  z-index: 1;
   left: 50%;
   top: 50%;
-  width: 20rem; /* Full width */
-  height: 40rem; /* Full height */
-  overflow: hidden; /* Enable scroll if needed */
-  /* background-color: rgb(0, 0, 0); Fallback color */
-  /* background-color: rgba(0, 0, 0, 0.4); Black w/ opacity */
+  width: 70%;
+  height: 70%;
+  overflow: hidden;
 }
 
-/* Modal Content/Box */
 .modal-content {
   background-color: #b42e2e;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 18rem; /* Could be more or less, depending on screen size */
+  color: white;
 }
 
 /* The Close Button */

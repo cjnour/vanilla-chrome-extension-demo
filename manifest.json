@@ -4,7 +4,8 @@
   "name": "Mrs. GPT",
   "permissions": ["tabs", "contextMenus", "activeTab", "scripting"],
   "action": {
-    "default_title": "Mrs. GPT"
+    "default_title": "Mrs. GPT",
+    "default_popup": "index.html"
   },
   "background": {
     "service_worker": "background.js"
@@ -22,7 +23,13 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["modal.html"],
+      "resources": [
+        "modal.html",
+        "clientIndex.html",
+        "bot.svg",
+        "send.svg",
+        "user.svg"
+      ],
       "matches": ["<all_urls>"]
     }
   ]

@@ -11,9 +11,13 @@
 // init();
 
 // document.body.style.backgroundColor = "orange";
-fetch(chrome.runtime.getURL("/modal.html"))
-  .then((r) => r.text())
-  .then((html) => {
-    document.body.insertAdjacentHTML("afterbegin", html);
-    // not using innerHTML as it would break js event listeners of the page
-  });
+try {
+  fetch(chrome.runtime.getURL("clientIndex.html"))
+    .then((r) => r.text())
+    .then((html) => {
+      document.body.insertAdjacentHTML("afterbegin", html);
+      // not using innerHTML as it would break js event listeners of the page
+    });
+} catch (err) {
+  console.log("Error: ", err);
+}

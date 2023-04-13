@@ -7,6 +7,8 @@ window.addEventListener("mouseup", function (event) {
   console.log("js", "\nX: ", x, "\nY: ", y);
   const modal = document.getElementById("modal");
   console.log(modal);
-  // modal.style.setProperty(`--x`, `${x}px`);
-  // modal.style.setProperty(`--y`, `${y}px`);
+  modal.style.setProperty(`--width`, "50%");
+  modal.style.setProperty(`--height`, "50%");
+  modal.style.setProperty(`--x`, `${x}px`);
+  modal.style.setProperty(`--y`, `${y}px`);
 });

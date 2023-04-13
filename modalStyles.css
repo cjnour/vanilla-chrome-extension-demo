@@ -1,15 +1,17 @@
 :root {
-  --x: 500px;
-  --y: 200px;
+  --x: 0px;
+  --y: 0px;
+  --width: 0%;
+  --height: 0%;
 }
 
 .modal {
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 2000000000;
   left: var(--x);
   top: var(--y);
-  width: 50%;
-  height: 50%;
+  width: var(--width);
+  height: var(--height);
   overflow: hidden;
 }

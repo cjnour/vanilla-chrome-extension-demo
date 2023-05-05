@@ -29,7 +29,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["mouseListener.js", "contentScript.js"],
+      "js": ["mouseListener.js"],
       "css": ["modalStyles.css"]
     }
   ]

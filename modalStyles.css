@@ -7,7 +7,7 @@
 
 .modal {
   display: block;
-  position: relative;
+  position: absolute;
   z-index: 2000000000;
   left: var(--x);
   top: var(--y);
